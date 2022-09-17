@@ -1,0 +1,175 @@
+.container{
+    max-width: 1920px;
+
+    .box{
+        width: 100%;
+        height: 82px;
+        background-color: blue;
+        display: flex;
+        flex-direction: row;
+        gap: 280px;
+
+        .box7{
+            width: 25%;
+            height: 32%;
+            margin-top: 25px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            gap: 10px;
+            
+            .p{
+                font-size: 20px;
+                color: black;
+            }
+            .p1{
+                color: white;
+                font-size: 20px;
+            }
+            .p2{
+                color: white;
+                font-size: 20px;
+            }
+            .p3{
+                color: white;
+                font-size: 20px;
+            }
+        }
+        
+        .box8{
+            width: 4%;
+            height: 69%;
+            margin-top: 15px;
+
+            .p4{
+                font-size: 45px;
+                color: white;
+                margin-top: -10px;
+            }
+        }
+        .box9{
+            width: 27%;
+            height: 69px;
+            margin-top: 7px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            position: relative;
+
+            .img{
+                width: 40px;
+            }
+            .box10{
+                width: 100%;
+                border: 1px solid white;
+                background-color: white;
+                
+            }
+            .extra{
+                width: 80%;
+                position: absolute;
+                margin-top: 0px;
+                margin-right: 45px;
+                background-color: blue;
+                border: 1px solid black;
+                border-radius: 20px;
+            }
+
+
+        }
+    }
+    .box1{
+        width: 100%;
+        height: 775px;
+        background-image: url(./img.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        flex-direction: row;
+        gap: 140px;
+        align-items: center;
+
+        .box11{
+            width: 3%;
+            height: 7%;
+            margin-left: 196px;
+            margin-top: 673px;
+            display: flex;
+            flex-direction: column;
+            
+
+            .p20{
+                font-size: 16px;
+                color: white;
+            }
+            .path{
+                width: 24px;
+                height: 22px;
+                margin-top: -17px;
+            }
+        }
+        .box12{
+            height: 58%;
+            width: 20%;
+            border: 3px solid black;
+            display: flex;
+            align-items: center;
+
+            .box14{
+                width: 67%; 
+                height: 64%;
+                border: 3px solid black;
+                margin-left: 18%;
+            }
+        }
+        .box13{
+            width: 19%;
+            height: 21%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+
+            .p21{
+                font-size: 24px;
+                font-weight: bold;
+            }
+            .p22{
+                font-size: 20px;
+            }
+        }
+
+    }
+    .box2{
+        width: 100%;
+        height: 1048px;
+        background-color: orange;
+        opacity: 70%;
+    }
+    .box3{
+        width: 100%;
+        height: 1048px;
+        background-image: url(./img2.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .box4{
+        width: 100%;
+        height: 1387px;
+        background-image: url(./img3.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .box5{
+        width: 100%;
+        height: 1048px;
+        border: 3px solid black;
+    }
+    .box6{
+        width: 100%;
+        height: 300px;
+        background-color: black;
+    }
+}
