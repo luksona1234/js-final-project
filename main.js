@@ -65,14 +65,41 @@ let inputt = document.querySelector('.inputt')
 let lad  = inputt.value
 let inputt1= document.querySelector('.inputt1')
 let errorName = document.querySelector('.errorName')
-let s = 5
+let errorLastName = document.querySelector('.errorLastName')
+let box11 = document.querySelector('.box11');
+let box12 = document.querySelector('.box12');
+let box13 = document.querySelector('.box13');
+let box1 = document.querySelector('.box1');
+let missionSucess = document.querySelector('.sucess');
+let goBack = document.querySelector('.goBack')
+let sucess = document.querySelector('.sucess')
 
 box17.addEventListener('click', () => {
     if(inputt.value.length < 6){
         errorName.style.display = 'block'
     }else if(inputt.value.length >= 6){
         errorName.style.display = 'none'
+        if(inputt1.value.length >= 6){
+            errorLastName.style.display = 'none' 
+            box12.style.display = 'none'
+            box13.style.display = 'none'
+            missionSucess.style.display = 'block'
+
+        }
     }
+    if(inputt1.value.length < 6){
+        errorLastName.style.display = 'block'
+    }else if(inputt1.value.length >= 6){
+        errorLastName.style.display = 'none'
+    } 
+    
+    
+})
+goBack.addEventListener('click', () => {
+    box11.style.display = 'block'
+    box12.style.display = 'block'
+    box13.style.display = 'block'
+    sucess.style.display = 'none'
 })
 
 
