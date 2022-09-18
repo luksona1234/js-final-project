@@ -4,7 +4,6 @@ let p2 = document.querySelector('.p2')
 let p3 = document.querySelector('.p3')
 let p4 = document.querySelector('.p4')
 let img = document.querySelector('.img')
-let box10 = document.querySelector('.box10')
 let extra = document.querySelector('.extra')
 
 let p20 = document.querySelector('.p20');
@@ -46,12 +45,11 @@ let i = 2
 
 img.addEventListener('click', () => {
     if(i % 2 == 0){
-        box10.style.display = 'none'
         extra.style.display = 'none'
         i++;
         console.log(i);
     }else if(i % 2 == 1){
-        box10.style.display = 'block'
+
         extra.style.display = 'block'
         i++;
     }
@@ -62,4 +60,21 @@ p20.addEventListener('click', () => {
 path.addEventListener('click', () => {
     window.scrollTo(0, 3050);
 })
+let box17 = document.querySelector('.box17')
+let inputt = document.querySelector('.inputt')
+let lad  = inputt.value
+let inputt1= document.querySelector('.inputt1')
+let errorName = document.querySelector('.errorName')
+let s = 5
+
+box17.addEventListener('click', () => {
+    if(inputt.value.length < 6){
+        errorName.style.display = 'block'
+    }else if(inputt.value.length >= 6){
+        errorName.style.display = 'none'
+    }
+})
+
+
+
 
