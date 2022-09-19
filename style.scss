@@ -260,7 +260,249 @@
         width: 100%;
         height: 1048px;
         background-color: orange;
-        opacity: 70%;
+        opacity: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 83px;
+
+        .theFirstDivInsideOfTheOrangeBox{
+            width: 35%;
+            height: 46%;
+            margin-left: 313px;
+            display: flex;
+            flex-direction: column;
+            gap: 42px;
+
+            .diiiv{
+                width: 100%;
+                height: 27%;
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+                gap: 43px;
+                overflow: hidden;
+                .meetOurWork{
+                    font-size: 54px;
+                    font-weight: bold;
+                    margin-top: -20px;
+                }
+                .p30{
+                    font-size: 12px;
+                }
+            }
+            .diiiv1{
+                width: 100%;
+                height: 27%;
+                display: flex;
+                flex-direction: row;
+                gap: 10px;
+                .div50{
+                    width: 49%;
+                    height: 102%;
+                    display: flex;
+                    flex-direction: row;
+                    gap: 10px;
+
+
+                    .div60{
+                        width: 47%;
+                        height: 80%;
+                        border-radius: 50%;
+                        background-image: url(./img6.png);
+                        background-position: center;
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                    }
+                    .div62{
+                        height: 100%;
+                        width: 55%;
+                        display: flex;
+                        flex-direction: column;
+                        gap: 0px;
+                        margin-left: 0px;
+                        margin-top: 0px;
+
+                        .p100{
+                            font-size: 13px;
+                            font-weight: bold;
+                            margin-left: 0px;
+                        }
+                        .p101{
+                            font-size: 10px;
+                        }
+                        .div64{
+                            width: 54%;
+                            height: 15%;
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: space-between;
+                            
+                            .icons{
+                                width: 11px;
+                                height: 20px;
+                            }
+
+                        }
+                    }
+                    
+                }
+                .div51{
+                    width: 49%;
+                    height: 102%;
+                    display: flex;
+                    flex-direction: row;
+                    gap: 10px;
+
+                    .div60{
+                        width: 47%;
+                        height: 80%;
+                        border-radius: 50%;
+                        background-image: url(./img7.png);
+                        background-position: center;
+                        background-size: cover;
+                        background-repeat: no-repeat; 
+                    }
+                    .div63{
+                        height: 100%;
+                        width: 55%;
+                        display: flex;
+                        flex-direction: column;
+                        gap: 0px;
+
+
+                        .p100{
+                            font-size: 13px;
+                            font-weight: bold;
+                            margin-left: 0px;
+                        }
+                        .p101{
+                            font-size: 10px;
+                        }
+                        .div64{
+                            width: 54%;
+                            height: 15%;
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: space-between;
+                            
+                            .icons{
+                                width: 11px;
+                                height: 20px;
+                            }
+
+                        }
+                    }
+                }
+            }
+            .diiiv2{
+                width: 100%;
+                height: 27%;
+                display: flex;
+                flex-direction: row;
+                gap: 10px;
+                .div52{
+                    width: 49%;
+                    height: 102%;
+                    display: flex;
+                    flex-direction: row;
+                    gap: 10px;
+
+                    .div60{
+                        width: 47%;
+                        height: 80%;
+                        border-radius: 50%;
+                        background-image: url(./img10.png);
+                        background-position: center;
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                    }
+                    .div62{
+                        height: 100%;
+                        width: 55%;
+                        display: flex;
+                        flex-direction: column;
+                        gap: 0px;
+
+                        .p100{
+                            font-size: 13px;
+                            font-weight: bold;
+                            margin-left: 0px;
+                        }
+                        .p101{
+                            font-size: 10px;
+                        }
+                        .div64{
+                            width: 54%;
+                            height: 15%;
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: space-between;
+                            
+                            .icons{
+                                width: 11px;
+                                height: 20px;
+                            }
+
+                        }
+                    }
+                }
+                .div53{
+                    width: 49%;
+                    height: 102%;
+                    display: flex;
+                    flex-direction: row;
+                    gap: 10px;
+                    .div60{
+                        width: 47%;
+                        height: 80%;
+                        border-radius: 50%;
+                        background-image: url(./Oval.png);
+                        background-position: center;
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                    }
+                    .div62{
+                        height: 100%;
+                        width: 55%;
+                        display: flex;
+                        flex-direction: column;
+                        gap: 0px;
+
+                        .p100{
+                            font-size: 13px;
+                            font-weight: bold;
+                            margin-left: 0px;
+                        }
+                        .p101{
+                            font-size: 10px;
+                        }
+                        .div64{
+                            width: 54%;
+                            height: 15%;
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: space-between;
+                            
+                            .icons{
+                                width: 11px;
+                                height: 20px;
+                            }
+
+                        }
+                    }
+                }
+            }
+        }
+        .theImageInsideOfTheOrangeBox{
+            height: 61%;
+            width: 26%;
+            background-image: url(./image5.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        
     }
     .box3{
         width: 100%;
@@ -281,7 +523,7 @@
     .box5{
         width: 100%;
         height: 1048px;
-        border: 3px solid black;
+        border: 3px solid black
     }
     .box6{
         width: 100%;

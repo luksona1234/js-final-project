@@ -102,6 +102,37 @@ goBack.addEventListener('click', () => {
     sucess.style.display = 'none'
 })
 
+let boxSebastian = document.querySelector('.box-Sebastian');
+let boxGraham = document.querySelector('.box-Graham');
+let boxMonica = document.querySelector('.box-Monica');
+let boxLeon = document.querySelector('.box-Leon');
+let theImageInsideOfTheOrangeBox = document.querySelector('.theImageInsideOfTheOrangeBox')
+let mover1 = document.querySelector('.mover-1')
+let pppp = document.querySelector('.pppp');
+let pppp1 = document.querySelector('.pppp1');
+let box64 = document.querySelector('.div64');
+let div60 = document.querySelector('.div60')
+
+boxSebastian.addEventListener('click', () => {
+    div60.style.display = 'none'
+    boxSebastian.style.borderRadius = '0%'
+    theImageInsideOfTheOrangeBox.style.backgroundImage = 'url(./img6.png)'
+    theImageInsideOfTheOrangeBox.style.backgroundposition = 'center'
+    theImageInsideOfTheOrangeBox.style.backgroundsize = 'cover'
+    theImageInsideOfTheOrangeBox.style.backgroundRepeat = 'no repeat'
+    mover1.style.position = 'absolute'
+    mover1.style.width = '30%'
+    mover1.style.height = '30%'
+    mover1.style.marginLeft = '560px'
+    mover1.style.marginTop = '160px'
+    pppp.style.fontSize = '25px'
+    pppp.style.color = 'white'
+    pppp1.style.fontSize = '30px'
+    pppp1.style.color = 'white'
+    box64.style.backgroundColor = 'white'
+})
+
+
 
 
 

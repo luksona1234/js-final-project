@@ -246,7 +246,228 @@
   width: 100%;
   height: 1048px;
   background-color: orange;
-  opacity: 70%;
+  opacity: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 83px;
+}
+.container .box2 .theFirstDivInsideOfTheOrangeBox {
+  width: 35%;
+  height: 46%;
+  margin-left: 313px;
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+}
+.container .box2 .theFirstDivInsideOfTheOrangeBox .diiiv {
+  width: 100%;
+  height: 27%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 43px;
+  overflow: hidden;
+}
+.container .box2 .theFirstDivInsideOfTheOrangeBox .diiiv .meetOurWork {
+  font-size: 54px;
+  font-weight: bold;
+  margin-top: -20px;
+}
+.container .box2 .theFirstDivInsideOfTheOrangeBox .diiiv .p30 {
+  font-size: 12px;
+}
+.container .box2 .theFirstDivInsideOfTheOrangeBox .diiiv1 {
+  width: 100%;
+  height: 27%;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.container .box2 .theFirstDivInsideOfTheOrangeBox .diiiv1 .div50 {
+  width: 49%;
+  height: 102%;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.container .box2 .theFirstDivInsideOfTheOrangeBox .diiiv1 .div50 .div60 {
+  width: 47%;
+  height: 80%;
+  border-radius: 50%;
+  background-image: url(./img6.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.container .box2 .theFirstDivInsideOfTheOrangeBox .diiiv1 .div50 .div62 {
+  height: 100%;
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  margin-left: 0px;
+  margin-top: 0px;
+}
+.container .box2 .theFirstDivInsideOfTheOrangeBox .diiiv1 .div50 .div62 .p100 {
+  font-size: 13px;
+  font-weight: bold;
+  margin-left: 0px;
+}
+.container .box2 .theFirstDivInsideOfTheOrangeBox .diiiv1 .div50 .div62 .p101 {
+  font-size: 10px;
+}
+.container .box2 .theFirstDivInsideOfTheOrangeBox .diiiv1 .div50 .div62 .div64 {
+  width: 54%;
+  height: 15%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.container .box2 .theFirstDivInsideOfTheOrangeBox .diiiv1 .div50 .div62 .div64 .icons {
+  width: 11px;
+  height: 20px;
+}
+.container .box2 .theFirstDivInsideOfTheOrangeBox .diiiv1 .div51 {
+  width: 49%;
+  height: 102%;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.container .box2 .theFirstDivInsideOfTheOrangeBox .diiiv1 .div51 .div60 {
+  width: 47%;
+  height: 80%;
+  border-radius: 50%;
+  background-image: url(./img7.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.container .box2 .theFirstDivInsideOfTheOrangeBox .diiiv1 .div51 .div63 {
+  height: 100%;
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+}
+.container .box2 .theFirstDivInsideOfTheOrangeBox .diiiv1 .div51 .div63 .p100 {
+  font-size: 13px;
+  font-weight: bold;
+  margin-left: 0px;
+}
+.container .box2 .theFirstDivInsideOfTheOrangeBox .diiiv1 .div51 .div63 .p101 {
+  font-size: 10px;
+}
+.container .box2 .theFirstDivInsideOfTheOrangeBox .diiiv1 .div51 .div63 .div64 {
+  width: 54%;
+  height: 15%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.container .box2 .theFirstDivInsideOfTheOrangeBox .diiiv1 .div51 .div63 .div64 .icons {
+  width: 11px;
+  height: 20px;
+}
+.container .box2 .theFirstDivInsideOfTheOrangeBox .diiiv2 {
+  width: 100%;
+  height: 27%;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.container .box2 .theFirstDivInsideOfTheOrangeBox .diiiv2 .div52 {
+  width: 49%;
+  height: 102%;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.container .box2 .theFirstDivInsideOfTheOrangeBox .diiiv2 .div52 .div60 {
+  width: 47%;
+  height: 80%;
+  border-radius: 50%;
+  background-image: url(./img10.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.container .box2 .theFirstDivInsideOfTheOrangeBox .diiiv2 .div52 .div62 {
+  height: 100%;
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+}
+.container .box2 .theFirstDivInsideOfTheOrangeBox .diiiv2 .div52 .div62 .p100 {
+  font-size: 13px;
+  font-weight: bold;
+  margin-left: 0px;
+}
+.container .box2 .theFirstDivInsideOfTheOrangeBox .diiiv2 .div52 .div62 .p101 {
+  font-size: 10px;
+}
+.container .box2 .theFirstDivInsideOfTheOrangeBox .diiiv2 .div52 .div62 .div64 {
+  width: 54%;
+  height: 15%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.container .box2 .theFirstDivInsideOfTheOrangeBox .diiiv2 .div52 .div62 .div64 .icons {
+  width: 11px;
+  height: 20px;
+}
+.container .box2 .theFirstDivInsideOfTheOrangeBox .diiiv2 .div53 {
+  width: 49%;
+  height: 102%;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.container .box2 .theFirstDivInsideOfTheOrangeBox .diiiv2 .div53 .div60 {
+  width: 47%;
+  height: 80%;
+  border-radius: 50%;
+  background-image: url(./Oval.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.container .box2 .theFirstDivInsideOfTheOrangeBox .diiiv2 .div53 .div62 {
+  height: 100%;
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+}
+.container .box2 .theFirstDivInsideOfTheOrangeBox .diiiv2 .div53 .div62 .p100 {
+  font-size: 13px;
+  font-weight: bold;
+  margin-left: 0px;
+}
+.container .box2 .theFirstDivInsideOfTheOrangeBox .diiiv2 .div53 .div62 .p101 {
+  font-size: 10px;
+}
+.container .box2 .theFirstDivInsideOfTheOrangeBox .diiiv2 .div53 .div62 .div64 {
+  width: 54%;
+  height: 15%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.container .box2 .theFirstDivInsideOfTheOrangeBox .diiiv2 .div53 .div62 .div64 .icons {
+  width: 11px;
+  height: 20px;
+}
+.container .box2 .theImageInsideOfTheOrangeBox {
+  height: 61%;
+  width: 26%;
+  background-image: url(./image5.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .container .box3 {
   width: 100%;
