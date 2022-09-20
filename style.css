@@ -476,6 +476,190 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  gap: 30px;
+}
+.container .box3 .box100 {
+  width: 29%;
+  height: 15%;
+  margin-left: 450px;
+  margin-top: 200px;
+  text-align: center;
+}
+.container .box3 .box100 .tired {
+  font-size: 54px;
+  font-weight: bold;
+}
+.container .box3 .box100 .as-hell {
+  font-size: 20px;
+}
+.container .box3 .box101 {
+  width: 75%;
+  height: 25%;
+  margin-left: 170px;
+}
+.container .box3 .box101 .box102 {
+  width: 1920px;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin-left: 100px;
+}
+.container .box3 .box101 .box102 .alt {
+  background-color: blue;
+}
+.container .box3 .box101 .box102 .box103 {
+  width: 200px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.container .box3 .box101 .box102 .box103 .p1000 {
+  font-size: 12px;
+  color: white;
+}
+.container .box3 .box101 .box102 .box103 .box105 {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.container .box3 .box101 .box102 .box103 .box105 .box106 {
+  width: 70px;
+  height: 70px;
+  background-image: url(./image5.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+}
+.container .box3 .box101 .box102 .box103 .box105 .p1001 {
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+}
+.container .box3 .box101 .box102 .alt1 {
+  width: 200px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.container .box3 .box101 .box102 .alt1 .p1000 {
+  font-size: 12px;
+  color: black;
+}
+.container .box3 .box101 .box102 .alt1 .box105 {
+  width: 100%;
+  height: 70px;
+}
+.container .box3 .box101 .box102 .alt1 .box105 .box106 {
+  width: 70px;
+  height: 70px;
+  background-image: url(./img7.png);
+  border: 3px solid black;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+}
+.container .box3 .box101 .box102 .alt1 .box105 .p1001 {
+  font-size: 15px;
+  font-weight: bold;
+  color: black;
+}
+.container .box3 .box101 .box102 .alt2 {
+  width: 200px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.container .box3 .box101 .box102 .alt2 .p1000 {
+  font-size: 12px;
+  color: black;
+}
+.container .box3 .box101 .box102 .alt2 .box105 {
+  width: 100%;
+  height: 70px;
+}
+.container .box3 .box101 .box102 .alt2 .box105 .box106 {
+  width: 70px;
+  height: 70px;
+  background-image: url(./img6.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+}
+.container .box3 .box101 .box102 .alt2 .box105 .p1001 {
+  font-size: 15px;
+  font-weight: bold;
+  color: black;
+}
+.container .box3 .box101 .box102 .alt3 {
+  width: 200px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.container .box3 .box101 .box102 .alt3 .p1000 {
+  font-size: 12px;
+  color: black;
+}
+.container .box3 .box101 .box102 .alt3 .box105 {
+  width: 100%;
+  height: 70px;
+}
+.container .box3 .box101 .box102 .alt3 .box105 .box106 {
+  width: 70px;
+  height: 70px;
+  background-image: url(./img10.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+}
+.container .box3 .box101 .box102 .alt3 .box105 .p1001 {
+  font-size: 15px;
+  font-weight: bold;
+  color: black;
+}
+.container .box3 .box101 .box102 .alt4 {
+  width: 200px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: blue;
+}
+.container .box3 .box101 .box102 .alt4 .p1000 {
+  font-size: 12px;
+  color: white;
+}
+.container .box3 .box101 .box102 .alt4 .box105 {
+  width: 100%;
+  height: 70px;
+}
+.container .box3 .box101 .box102 .alt4 .box105 .box106 {
+  width: 70px;
+  height: 70px;
+  background-image: url(./image5.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+}
+.container .box3 .box101 .box102 .alt4 .box105 .p1001 {
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
 }
 .container .box4 {
   width: 100%;
