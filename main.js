@@ -55,7 +55,7 @@ img.addEventListener('click', () => {
     }
 });
 p20.addEventListener('click', () => {
-    window.scrollTo(0, 1470);
+    window.scrollTo(0, 3050);
 })
 path.addEventListener('click', () => {
     window.scrollTo(0, 3050);
@@ -115,85 +115,247 @@ let pppp1 = document.querySelector('.pppp1');
 let box64 = document.querySelector('.div64');
 let div60 = document.querySelector('.div60')
 
-boxSebastian.addEventListener('click', () => {
-    div60.style.width = '56%'
-    boxSebastian.style.borderRadius = '0%'
-    theImageInsideOfTheOrangeBox.style.backgroundImage = 'url(./img6.png)'
-    theImageInsideOfTheOrangeBox.style.backgroundposition = 'center'
-    theImageInsideOfTheOrangeBox.style.backgroundsize = 'cover'
-    theImageInsideOfTheOrangeBox.style.backgroundRepeat = 'no repeat'
-    mover1.style.position = 'absolute'
-    mover1.style.width = '30%'
-    mover1.style.height = '30%'
-    mover1.style.marginLeft = '560px'
-    mover1.style.marginTop = '160px'
-    pppp.style.fontSize = '25px'
-    pppp.style.color = 'white'
-    pppp1.style.fontSize = '30px'
-    pppp1.style.color = 'white'
-    box64.style.backgroundColor = 'white'
-})
-let pppp2 = document.querySelector('.pppp2');
-let pppp3 = document.querySelector('.pppp3');
-let GrahamLinks = document.querySelector('.GrahamLinks')
-boxGraham.addEventListener('click', () => {
+// boxSebastian.addEventListener('click', () => {
+//     div60.style.width = '56%'
+//     boxSebastian.style.borderRadius = '0%'
+//     theImageInsideOfTheOrangeBox.style.backgroundImage = 'url(./img6.png)'
+//     theImageInsideOfTheOrangeBox.style.backgroundposition = 'center'
+//     theImageInsideOfTheOrangeBox.style.backgroundsize = 'cover'
+//     theImageInsideOfTheOrangeBox.style.backgroundRepeat = 'no repeat'
+//     mover1.style.position = 'absolute'
+//     mover1.style.width = '30%'
+//     mover1.style.height = '30%'
+//     mover1.style.marginLeft = '560px'
+//     mover1.style.marginTop = '160px'
+//     pppp.style.fontSize = '25px'
+//     pppp.style.color = 'white'
+//     pppp1.style.fontSize = '30px'
+//     pppp1.style.color = 'white'
+//     box64.style.backgroundColor = 'white'
+// })
+// let pppp2 = document.querySelector('.pppp2');
+// let pppp3 = document.querySelector('.pppp3');
+// let GrahamLinks = document.querySelector('.GrahamLinks')
+// boxGraham.addEventListener('click', () => {
 
-    if(theImageInsideOfTheOrangeBox.style.backgroundImage = 'url(./img6.png)'){
-        theImageInsideOfTheOrangeBox.style.backgroundImage = 'url(./img7.png)'
-        div60.style.width = '47%'
-        mover1.style.width = '55%'
-        mover1.style.height = '100%'
-        mover1.style.marginLeft = '110px'
-        mover1.style.marginTop = '0px'
-        pppp.style.fontSize = '13px'
-        pppp.style.fontWeight = 'bold'
-        pppp.style.color = 'black'
-        pppp1.style.fontSize = '10px'
-        pppp1.style.color = 'black'
-        box64.style.width = '10%'
-        box64.style.backgroundColor = 'transparent'
-        theImageInsideOfTheOrangeBox.style.backgroundposition = 'center'
-        theImageInsideOfTheOrangeBox.style.backgroundsize = 'cover'
-        theImageInsideOfTheOrangeBox.style.backgroundRepeat = 'no repeat'
-        mover2.style.position = 'absolute'
-        mover2.style.width = '30%'
-        mover2.style.height = '30%'
-        mover2.style.marginLeft = '326px'
-        mover2.style.marginTop = '179px'
-        pppp2.style.fontSize = '25px'
-        pppp2.style.color = 'white'
-        pppp3.style.fontSize = '30px'
-        pppp3.style.color = 'white'
-        GrahamLinks.style.backgroundColor = 'white'
+//     if(theImageInsideOfTheOrangeBox.style.backgroundImage = 'url(./img6.png)'){
+//         theImageInsideOfTheOrangeBox.style.backgroundImage = 'url(./img7.png)'
+//         div60.style.width = '47%'
+//         mover1.style.width = '55%'
+//         mover1.style.height = '100%'
+//         mover1.style.marginLeft = '110px'
+//         mover1.style.marginTop = '0px'
+//         pppp.style.fontSize = '13px'
+//         pppp.style.fontWeight = 'bold'
+//         pppp.style.color = 'black'
+//         pppp1.style.fontSize = '10px'
+//         pppp1.style.color = 'black'
+//         box64.style.width = '10%'
+//         box64.style.backgroundColor = 'transparent'
+//         theImageInsideOfTheOrangeBox.style.backgroundposition = 'center'
+//         theImageInsideOfTheOrangeBox.style.backgroundsize = 'cover'
+//         theImageInsideOfTheOrangeBox.style.backgroundRepeat = 'no repeat'
+//         mover2.style.position = 'absolute'
+//         mover2.style.width = '30%'
+//         mover2.style.height = '30%'
+//         mover2.style.marginLeft = '326px'
+//         mover2.style.marginTop = '179px'
+//         pppp2.style.fontSize = '25px'
+//         pppp2.style.color = 'white'
+//         pppp3.style.fontSize = '30px'
+//         pppp3.style.color = 'white'
+//         GrahamLinks.style.backgroundColor = 'white'
 
-    }else if(theImageInsideOfTheOrangeBox.style.backgroundImage = 'url(./img10.png)'){
-        boxMonica.style.width = '47%'
-        mover3.style.width = '55%'
-        mover3.style.height = '100%'
-        mover3.style.marginLeft = '560px'
-        mover3.style.marginTop = '0px'
-    }
-    // boxGraham.style.width = '56%'
-    // theImageInsideOfTheOrangeBox.style.backgroundImage = 'url(./img7.png)'
-    theImageInsideOfTheOrangeBox.style.backgroundposition = 'center'
-    theImageInsideOfTheOrangeBox.style.backgroundsize = 'cover'
-    theImageInsideOfTheOrangeBox.style.backgroundRepeat = 'no repeat'
-    mover2.style.position = 'absolute'
-    mover2.style.width = '30%'
-    mover2.style.height = '30%'
-    mover2.style.marginLeft = '326px'
-    mover2.style.marginTop = '179px'
-    pppp2.style.fontSize = '25px'
-    pppp2.style.color = 'white'
-    pppp3.style.fontSize = '30px'
-    pppp3.style.color = 'white'
-    GrahamLinks.style.backgroundColor = 'white'
-})
-boxMonica.addEventListener('click', () => {
+//     }else if(theImageInsideOfTheOrangeBox.style.backgroundImage = 'url(./img10.png)'){
+//         boxMonica.style.width = '47%'
+//         mover3.style.width = '55%'
+//         mover3.style.height = '100%'
+//         mover3.style.marginLeft = '560px'
+//         mover3.style.marginTop = '0px'
+//     }
+//     // boxGraham.style.width = '56%'
+//     // theImageInsideOfTheOrangeBox.style.backgroundImage = 'url(./img7.png)'
+//     theImageInsideOfTheOrangeBox.style.backgroundposition = 'center'
+//     theImageInsideOfTheOrangeBox.style.backgroundsize = 'cover'
+//     theImageInsideOfTheOrangeBox.style.backgroundRepeat = 'no repeat'
+//     mover2.style.position = 'absolute'
+//     mover2.style.width = '30%'
+//     mover2.style.height = '30%'
+//     mover2.style.marginLeft = '326px'
+//     mover2.style.marginTop = '179px'
+//     pppp2.style.fontSize = '25px'
+//     pppp2.style.color = 'white'
+//     pppp3.style.fontSize = '30px'
+//     pppp3.style.color = 'white'
+//     GrahamLinks.style.backgroundColor = 'white'
+// })
+// boxMonica.addEventListener('click', () => {
     
-})
+// })
+window.onscroll = function() {myFunction()}
 let box102 = document.querySelector('.box102')
-let body = document.querySelector('body')
+
+function myFunction() {
+    if(document.documentElement.scrollTop < 1600){
+        box102.style.display = 'none'
+    }
+    if(document.documentElement.scrollTop > 1600){
+        box102.style.display = 'block'
+        box102.style.display = 'flex'
+        box102.style.flexDirection = 'row'
+    }
+}
+
+let js20 = document.querySelector('.js-20');
+let js21 = document.querySelector('.js-21');
+let js22 = document.querySelector('.js-22');
+let js23 = document.querySelector('.js-23');
+let js24 = document.querySelector('.js-24');
+let altboxluka8 = document.querySelector('.alt-box-luka8')
+let altboxluka9 = document.querySelector('.alt-box-luka9')
+let altboxluka10 = document.querySelector('.alt-box-luka10')
+let altboxluka11 = document.querySelector('.alt-box-luka11')
+
+
+js21.addEventListener('click', () => {
+    altboxluka9.style.display = 'none'
+    altboxluka10.style.display = 'none'
+    altboxluka11.style.display = 'none'
+    if(altboxluka8.style.display = 'none'){
+        altboxluka8.style.display = 'block'
+        altboxluka8.style.width = '500px'
+        altboxluka8.style.height = '656px'
+    }
+    js21.style.backgroundColor = 'blue'
+    if(js20.style.backgroundColor = 'blue'){
+        js20.style.backgroundColor = 'transparent'
+    }
+    if(js22.style.backgroundColor = 'blue'){
+        js22.style.backgroundColor = 'transparent'
+    }
+    if(js23.style.backgroundColor = 'blue'){
+        js23.style.backgroundColor = 'transparent'
+    }
+    if(js24.style.backgroundColor = 'blue'){
+        js24.style.backgroundColor = 'transparent'
+    }
+})
+js22.addEventListener('click', () => {
+    altboxluka9.style.display = 'none'
+    altboxluka11.style.display = 'none'
+    altboxluka8.style.display = 'none'
+    if(altboxluka10.style.display = 'none'){
+        altboxluka10.style.display = 'block'
+        altboxluka10.style.width = '500px'
+        altboxluka10.style.height = '656px'
+        altboxluka10.style.marginTop = '0px'
+    }
+    js22.style.backgroundColor = 'blue'
+    if(js20.style.backgroundColor = 'blue'){
+        js20.style.backgroundColor = 'transparent'
+    }
+    if(js21.style.backgroundColor = 'blue'){
+        js21.style.backgroundColor = 'transparent'
+    }
+    if(js23.style.backgroundColor = 'blue'){
+        js23.style.backgroundColor = 'transparent'
+    }
+    if(js24.style.backgroundColor = 'blue'){
+        js24.style.backgroundColor = 'transparent'
+    }
+
+})
+js23.addEventListener('click', () => {
+    altboxluka8.style.display = 'none'
+    altboxluka10.style.display = 'none'
+    altboxluka11.style.display = 'none'
+    if(altboxluka9.style.display = 'none'){
+        altboxluka9.style.display = 'block'
+        altboxluka9.style.width = '500px'
+        altboxluka9.style.height = '656px'
+    }
+    js23.style.backgroundColor = 'blue'
+    if(js20.style.backgroundColor = 'blue'){
+        js20.style.backgroundColor = 'transparent'
+    }
+    if(js22.style.backgroundColor = 'blue'){
+        js22.style.backgroundColor = 'transparent'
+    }
+    if(js21.style.backgroundColor = 'blue'){
+        js21.style.backgroundColor = 'transparent'
+    }
+    if(js24.style.backgroundColor = 'blue'){
+        js24.style.backgroundColor = 'transparent'
+    }
+})
+js24.addEventListener('click', () => {
+    altboxluka8.style.display = 'none'
+    altboxluka10.style.display = 'none'
+    altboxluka9.style.display = 'none'
+    if(altboxluka11.style.display = 'none'){
+        altboxluka11.style.display = 'block'
+        altboxluka11.style.marginTop = '0px'
+        altboxluka11.style.width = '50%'
+        altboxluka11.style.height = '656px'
+    }
+    js24.style.backgroundColor = 'blue'
+    if(js20.style.backgroundColor = 'blue'){
+        js20.style.backgroundColor = 'transparent'
+    }
+    if(js22.style.backgroundColor = 'blue'){
+        js22.style.backgroundColor = 'transparent'
+    }
+    if(js23.style.backgroundColor = 'blue'){
+        js23.style.backgroundColor = 'transparent'
+    }
+    if(js21.style.backgroundColor = 'blue'){
+        js21.style.backgroundColor = 'transparent'
+    }
+})
+js20.addEventListener('click', () => {
+    if(altboxluka8.style.display = 'none'){
+        altboxluka8.style.display = 'block'
+        altboxluka8.style.width = '360px'
+        altboxluka8.style.height = '600px'
+    } 
+    if(altboxluka10.style.display = 'none'){
+        altboxluka10.style.display = 'block'
+        altboxluka10.style.width = '360px'
+        altboxluka10.style.height = '600px'
+        altboxluka10.style.marginTop = '42px'
+    }
+    if(altboxluka9.style.display = 'none'){
+        altboxluka9.style.display = 'block'
+        altboxluka9.style.width = '360px'
+        altboxluka9.style.height = '600px'
+    }
+    if(altboxluka11.style.display = 'none'){
+        altboxluka11.style.display = 'block'
+        altboxluka11.style.width = '360px'
+        altboxluka11.style.height = '600px'
+        altboxluka11.style.marginTop = '42px'  
+    }
+    js20.style.backgroundColor = 'blue'
+    if(js24.style.backgroundColor = 'blue'){
+        js24.style.backgroundColor = 'transparent'
+    }
+    if(js22.style.backgroundColor = 'blue'){
+        js22.style.backgroundColor = 'transparent'
+    }
+    if(js23.style.backgroundColor = 'blue'){
+        js23.style.backgroundColor = 'transparent'
+    }
+    if(js21.style.backgroundColor = 'blue'){
+        js21.style.backgroundColor = 'transparent'
+    }
+})
+
+
+
+
+
+
+
 
 
 

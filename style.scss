@@ -543,7 +543,11 @@
                 display: flex;
                 flex-direction: row;
                 gap: 20px;
-                margin-left: 100px;
+                margin-left: 114%;
+                animation: appear;
+                animation-duration: 20s;
+                animation-delay: 0s;
+                animation-iteration-count: infinite;
 
                 .alt{
                     background-color: blue;
@@ -712,6 +716,14 @@
                 }
                 
             }
+            @keyframes appear {
+                0%{
+                    transform: translateX(0px);
+                }
+                100%{
+                    transform: translateX(-1200px);
+                }
+            }
         }
     }
     .box4{
@@ -721,15 +733,125 @@
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 126px;
+
+
+        .box-luka{
+            width: 33%;
+            height: 19%;
+            margin-top: 111px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+
+            .p-luka{
+                font-size: 56px;
+                font-weight: bold;
+                color: white;
+            }
+
+            .p-luka1{
+                font-size: 20px;
+                color: white;
+            }
+            .box-luka2{
+                width: 100%;
+                height: 18%;
+                display: flex;
+                flex-direction: row;
+                .box-luka5{
+                    width: 20%;
+                    height: 100%;
+                    background-color: blue;
+                    .p-luka5{
+                        font-size: 16px;
+                        color: white;
+                        margin-left: 25px;
+                    }
+                }
+                .box-luka6{
+                    width: 20%;
+                    height: 100%;
+                    background-color: transparent;
+
+                    .p-luka5{
+                        font-size: 16px;
+                        color: white;
+                    }
+
+                    .p-alt-luka{
+                        margin-left: 15px;
+                    }
+                }
+            }
+        }
+        .box-luka1{
+            width: 90%;
+            height: 47%;
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+
+            .box-luka10{
+                width: 50%;
+                height: 81%;
+                background-color: white;
+            }
+            .alt-box-luka8{
+                background-image: url(./image25.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            .alt-box-luka9{
+                background-image: url(./image26.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            .alt-box-luka10{
+                margin-top: 122px;
+                background-image: url(./image30.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            .alt-box-luka11{
+                margin-top: 122px;
+                background-image: url(./image31.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+        }
     }
     .box5{
         width: 100%;
         height: 1048px;
-        border: 3px solid black
+        border: 3px solid black;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+        .Theplan{
+            font-size: 56px;
+            color: black;
+        }
+        .textUnderThePlan{
+            font-size: 20px;
+            color: black;
+        }
+        .boxUnderThePlan{
+            width: 47%;
+            height: 75%;
+            border: 3px solid black;
+        }
     }
     .box6{
         width: 100%;
         height: 300px;
         background-color: black;
     }
+    
 }
