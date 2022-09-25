@@ -845,13 +845,101 @@
         .boxUnderThePlan{
             width: 47%;
             height: 75%;
-            border: 3px solid black;
+            display: flex;
+            flex-direction: row;
+            gap: 0.3%;
+
+            .threeBoxesInboxUnderThePlan{
+                width: 33%;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-around;
+
+                
+            }
+            .scrollDown{
+                width: 103px;
+                height: 40px;
+                border-radius: 20px;
+                background-color: red;
+            }
+            .lotsOfPTags{
+                width: 100%;
+                height: 340px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                display: none;
+                animation: comeDown;
+                animation-duration: 5s;
+                animation-delay: 0s;
+                
+
+
+                .exeptions{
+                    font-size: 24px;
+                    font-weight: bold;
+                }
+            }
+            @keyframes comeDown {
+                0%{
+                    height: 0px;
+                }
+                100%{
+                    height: 340px;
+                }
+            }
         }
     }
     .box6{
         width: 100%;
         height: 300px;
         background-color: black;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        .footerDivs{
+            width: 348px;
+            height: 223px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            
+            
+            .iamalmostdone{
+                font-size: 16px;
+                color: white;
+            }
+        }
+        .footer-p{
+            font-size: 45px;
+            color: white;
+        }
+        .footerDivs1{
+            width: 314px;
+            height: 166px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+
+            .final-div{
+                width: 100%;
+                height: 50px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+            }
+            .ffsisitover{
+                font-size: 12px;
+                color: white;
+            }
+        }
     }
     
 }

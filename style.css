@@ -797,10 +797,99 @@
 .container .box5 .boxUnderThePlan {
   width: 47%;
   height: 75%;
-  border: 3px solid black;
+  display: flex;
+  flex-direction: row;
+  gap: 0.3%;
+}
+.container .box5 .boxUnderThePlan .threeBoxesInboxUnderThePlan {
+  width: 33%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.container .box5 .boxUnderThePlan .scrollDown {
+  width: 103px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: red;
+}
+.container .box5 .boxUnderThePlan .lotsOfPTags {
+  width: 100%;
+  height: 340px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  display: none;
+  -webkit-animation: comeDown;
+          animation: comeDown;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+}
+.container .box5 .boxUnderThePlan .lotsOfPTags .exeptions {
+  font-size: 24px;
+  font-weight: bold;
+}
+@-webkit-keyframes comeDown {
+  0% {
+    height: 0px;
+  }
+  100% {
+    height: 340px;
+  }
+}
+@keyframes comeDown {
+  0% {
+    height: 0px;
+  }
+  100% {
+    height: 340px;
+  }
 }
 .container .box6 {
   width: 100%;
   height: 300px;
   background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.container .box6 .footerDivs {
+  width: 348px;
+  height: 223px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.container .box6 .footerDivs .iamalmostdone {
+  font-size: 16px;
+  color: white;
+}
+.container .box6 .footer-p {
+  font-size: 45px;
+  color: white;
+}
+.container .box6 .footerDivs1 {
+  width: 314px;
+  height: 166px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.container .box6 .footerDivs1 .final-div {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.container .box6 .footerDivs1 .ffsisitover {
+  font-size: 12px;
+  color: white;
 }/*# sourceMappingURL=style.css.map */

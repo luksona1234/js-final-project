@@ -349,6 +349,47 @@ js20.addEventListener('click', () => {
         js21.style.backgroundColor = 'transparent'
     }
 })
+let threeBoxesInboxUnderThePlan = document.querySelector('.threeBoxesInboxUnderThePlan');
+let lotsOfPTags = document.querySelector('.lotsOfPTags');
+
+let alta1 = document.querySelector('.alta-1');
+let alta2 = document.querySelector('.alta-2');
+let altar1 = document.querySelector('.altar-1');
+let altar2 = document.querySelector('.altar-2');
+if(lotsOfPTags.style.display = 'none'){
+    threeBoxesInboxUnderThePlan.style.height = '100px'
+}
+if(alta1.style.display = 'none'){
+    altar1.style.height = '100px'
+}
+if(alta2.style.display = 'none'){
+    altar2.style.height = '100px'
+}
+let scrolldown = document.querySelector('.scrollDown');
+let altarn1 = document.querySelector('.altarn-1');
+let altarn2 = document.querySelector('.altarn-2');
+
+scrolldown.addEventListener('click', () => {
+    if(lotsOfPTags.style.display = 'none'){
+        threeBoxesInboxUnderThePlan.style.height = '560px'
+        lotsOfPTags.style.display = 'block'
+    }
+})
+altarn1.addEventListener('click', () => {
+    if(alta1.style.display = 'none'){
+        altar1.style.height = '560px'
+        alta1.style.display = 'block'
+    }
+})
+altarn2.addEventListener('click', () => {
+    if(alta2.style.display = 'none'){
+        altar2.style.height = '560px'
+        alta2.style.display = 'block'
+    }
+})
+
+
+
 
 
 
